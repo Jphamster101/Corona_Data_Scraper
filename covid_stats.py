@@ -68,8 +68,8 @@ table = openpyxl.worksheet.table.Table(ref='A1:C' + str(current_max_row),
                                     displayName='coronaCasualities',
                                     tableStyleInfo=mediumStyle)
 # add the table to the worksheet
-sheet.add_table(table)
-del sheet._tables[0]
+# sheet.add_table(table)
+# del sheet._tables[0]
 
 if (len(sheet._charts) > 0):
     del sheet._charts[0]
