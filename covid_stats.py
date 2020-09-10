@@ -107,7 +107,7 @@ wb.save(filename=FILENAME)
 print("Done")
 
 if sys.platform == "linux":
-    file = os.path.dirname(os.path.abspath(FILENAME)) + FILENAME
+    file = os.path.dirname(os.path.abspath(FILENAME)) + '/' + FILENAME
     subprocess.call(["xdg-open", file])
 else:
     file = os.path.dirname(os.path.abspath(FILENAME)) + "\\" + FILENAME
