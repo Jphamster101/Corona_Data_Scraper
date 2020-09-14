@@ -1,4 +1,7 @@
 # Corona_Data_Scraper
+
+![](https://github.com/Jphamster101/Corona_Data_Scraper/blob/master/project_card.PNG)
+
 Simple Web Scraping Application to get and output daily COVID-19 casualities in an excel file. Data is represented both in rows and columns, as well as in graph form.
 
 ## To Run program:
