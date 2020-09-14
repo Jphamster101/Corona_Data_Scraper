@@ -8,3 +8,7 @@ Simple Web Scraping Application to get and output daily COVID-19 casualities in 
 1. Ensure that you have Python 3.7+ installed
 2. Download all the files in repository
 3. Run the ```pip3 install -r requirements.txt``` command
+4. Run the ```python covid_stats.py``` or ```python3 covid_stats.py``` to run program
+
+# Example output
+![]()
